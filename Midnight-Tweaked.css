@@ -2,7 +2,7 @@
  * @name Midnight Tweaked
  * @description Modified Version of refact0r's Midnight theme
  * @author refact0r / Virtual
- * @version 1.1
+ * @version 1.2
  * @source https://github.com/Virtual065/MidnightTweaked
  * @authorId 546714001300783114
 */
@@ -14,7 +14,7 @@
 /* change colors and variables here */
 :root {
 	/* amount of spacing and padding */
-	--spacing: 14px;
+	--spacing: 12px;
 	/* radius of round corners */
 	--roundness: 10px;
 
