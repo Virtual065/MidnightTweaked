@@ -1,0 +1,80 @@
+/**
+ * @name Midnight Tweaked
+ * @description A darkened discord theme.
+ * @author refact0r / Virtual
+ * @version 1.5.0
+ * @source https://github.com/refact0r/midnight-discord
+ * @authorId 508863359777505290
+*/
+
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
+@import url('./midnightinfo/MidnightInfo.css');
+@import url("./midnightinfo/RadialInfo.css");
+
+/* change colors and variables here */
+:root {
+	/* amount of spacing and padding */
+	--spacing: 12px;
+	/* radius of round corners */
+	--roundness: 1px;
+
+	/* color of links */
+	--accent-1: #5899ea;
+	/* color of unread dividers and some indicators */
+	--accent-2: hsl(190, 71%, 28%);
+	/* color of accented buttons */
+	--accent-3: hsl(190, 71%, 28%);
+	/* color of accented buttons when hovered */
+	--accent-4: hsl(190, 71%, 28%);
+	/* color of accented buttons when clicked */
+	--accent-5: hsl(190, 71%, 28%);
+
+	/* color of mentions and messages that mention you */
+	--mention: hsla(190, 60%, 50%, 0.1);
+	/* color of mentions and messages that mention you when hovered */
+	--mention-hover: hsla(190, 60%, 50%, 0.05);
+
+	/* color of bright text on colored buttons */
+	--text-1: hsl(220, 40%, 90%);
+	/* color of headings and important text */
+	--text-2: hsl(220, 30%, 70%);
+	/* color of normal text */
+	--text-3: hsla(0, 0%, 100%, 0.808);
+	/* color of icon buttons and channels */
+	--text-4: hsla(0, 0%, 100%, 0.658);
+	/* color of muted channels/chats and timestamps */
+	--text-5: hsl(220, 15%, 24%);
+
+	/* color of dark buttons when clicked */
+	--bg-1: hsl(220, 15%, 20%);
+	/* color of dark buttons */
+	--bg-2: hsl(220, 15%, 16%);
+	/* color of spacing around panels and secondary elements */
+	--bg-3: hsl(220, 15%, 13%);
+	/* main background color */
+	--bg-4: hsl(220, 15%, 10%);
+
+	/* color of channels and icon buttons when hovered */
+	--hover: hsla(230, 20%, 40%, 0.1);
+	/* color of channels and icon buttons when clicked or selected */
+	--active: hsla(220, 20%, 40%, 0.2);
+	/* color of messages when hovered */
+	--message-hover: hsla(220, 0%, 0%, 0.1);
+
+  	/* Radial Status */
+  	--rs-small-spacing: 2px;
+ 	 --rs-large-spacing: 3px;
+ 	 --rs-width: 2px;
+ 	 --rs-avatar-shape: 50%;
+	 --rs-online-color: #43b581;
+ 	 --rs-idle-color: #faa61a;
+ 	 --rs-dnd-color: #f04747;
+ 	 --rs-offline-color: #636b75;
+ 	 --rs-streaming-color: #643da7;
+	 --rs-invisible-color: #747f8d;
+ 	 --rs-phone-visible: block;
+ 	 --rs-phone-color: var(--rs-online-color);
+
+
+
+}
