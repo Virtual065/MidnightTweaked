@@ -59,7 +59,7 @@
 	/* color of channels and icon buttons when clicked or selected */
 	--active: hsla(197, 33%, 35%, 0.418);
 	/* color of messages when hovered */
-	--message-hover: hsla(197, 33%, 35%, 0.233);
+	--message-hover: hsl(225, 12%, 13%);
 
   	/* Radial Status */
 	 --rs-online-color: #43b581;
