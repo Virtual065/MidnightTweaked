@@ -1,22 +1,22 @@
 /**
  * @name Midnight Tweaked
- * @description A darkened discord theme.
+ * @description Modified Version of refact0r's Midnight theme
  * @author refact0r / Virtual
- * @version 1.0
- * @source https://github.com/Virtual065/MidnightTweaked/
+ * @version 1.1
+ * @source https://github.com/Virtual065/MidnightTweaked
  * @authorId 546714001300783114
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
-@import url('./midnightinfo/MidnightInfo.css');
-@import url("./midnightinfo/RadialInfo.css");
+@import url('https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/MidnightInfo.css');
+@import url("https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/RadialInfo.css");
 
 /* change colors and variables here */
 :root {
 	/* amount of spacing and padding */
-	--spacing: 12px;
+	--spacing: 14px;
 	/* radius of round corners */
-	--roundness: 1px;
+	--roundness: 10px;
 
 	/* color of links */
 	--accent-1: #5899ea;
@@ -43,7 +43,7 @@
 	/* color of icon buttons and channels */
 	--text-4: hsla(0, 0%, 100%, 0.658);
 	/* color of muted channels/chats and timestamps */
-	--text-5: hsl(220, 15%, 24%);
+	--text-5: hsla(0, 0%, 100%, 0.425);
 
 	/* color of dark buttons when clicked */
 	--bg-1: hsl(220, 15%, 20%);
@@ -55,25 +55,19 @@
 	--bg-4: hsl(220, 15%, 10%);
 
 	/* color of channels and icon buttons when hovered */
-	--hover: hsla(230, 20%, 40%, 0.1);
+	--hover: hsla(197, 33%, 35%, 0.233);
 	/* color of channels and icon buttons when clicked or selected */
-	--active: hsla(220, 20%, 40%, 0.2);
+	--active: hsla(197, 33%, 35%, 0.418);
 	/* color of messages when hovered */
-	--message-hover: hsla(220, 0%, 0%, 0.1);
+	--message-hover: hsla(197, 33%, 35%, 0.233);
 
   	/* Radial Status */
-  	--rs-small-spacing: 2px;
- 	 --rs-large-spacing: 3px;
- 	 --rs-width: 2px;
- 	 --rs-avatar-shape: 50%;
 	 --rs-online-color: #43b581;
  	 --rs-idle-color: #faa61a;
  	 --rs-dnd-color: #f04747;
  	 --rs-offline-color: #636b75;
  	 --rs-streaming-color: #643da7;
 	 --rs-invisible-color: #747f8d;
- 	 --rs-phone-visible: block;
- 	 --rs-phone-color: var(--rs-online-color);
 
 
 
