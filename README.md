@@ -2,7 +2,7 @@
 Tweaked Version of [Midnight](https://betterdiscord.app/theme/midnight) by [Refact0r](https://betterdiscord.app/developer/refact0r)
 
 ### ![betterdiscord](https://discord-extensions.github.io/assets/icons/betterdiscord.png) **[BetterDiscord](https://betterdiscord.app)**
-- [Download](https://github.com/Virtual065/MidnightTweaked/releases/download/1.2/Midnight-Tweaked.css)
+- [Download](https://github.com/Virtual065/MidnightTweaked/releases/download/1.3/Midnight-Tweaked.css)
 
 ### ![vencord](https://discord-extensions.github.io/assets/icons/vencord.gif) **[Vencord](https://github.com/Vendicated/Vencord)**
 1. Go to user settings
