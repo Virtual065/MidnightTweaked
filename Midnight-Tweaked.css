@@ -10,6 +10,7 @@
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
 @import url('https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/MidnightInfo.css');
 @import url("https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/RadialInfo.css");
+@import url("https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/SettingsIcons.css");
 
 /* change colors and variables here */
 :root {
