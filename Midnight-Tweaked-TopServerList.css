@@ -8,7 +8,7 @@
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!! */
-@import url('https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/MidnightInfo.css');
+@import url('https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/MidnightInfo-TopServerList.css');
 @import url("https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/RadialInfo.css");
 @import url("https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/SettingsIcons.css");
 @import url("https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/TopServerList.css");
@@ -17,7 +17,7 @@
 /* change colors and variables here */
 :root {
 	/* amount of spacing and padding */
-	--spacing: 0px;
+	--spacing: 12px;
 	/* radius of round corners */
 	--roundness: 10px;
 
