@@ -643,42 +643,7 @@ button.button__581d0 /* small buttons */,
 	height: calc(var(--spacing) + 8px);
 }
 
-/* custom dm button moon icon */
-.childWrapper_a6ce15 > svg:not(.favoriteIcon__901fa) {
-	display: var(--discord-icon);
-}
-.childWrapper_a6ce15:has(> svg:not(.favoriteIcon__901fa))::before {
-	content: '';
-	display: var(--moon-icon);
-	position: absolute;
-	width: 65%;
-	height: 65%;
-	background: var(--text-4);
-	-webkit-mask-image: var(--moon-icon-url);
-	-webkit-mask-size: var(--moon-icon-size);
-	-webkit-mask-repeat: none;
-}
-.wrapper__8436d:hover .childWrapper_a6ce15::before {
-	/* prettier-ignore */
-	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
-	transform: rotate(0deg) scale(1);
-}
-.wrapper__8436d:hover > .childWrapper_a6ce15::before,
-.wrapper__8436d.selected_ae80f7 > .childWrapper_a6ce15::before {
-	background: var(--text-0);
-	transform: rotate(-360deg) scale(0.8);
-}
-.lowerBadge_e89e22::before {
-	content: '';
-	display: block;
-	position: absolute;
-	width: 24px;
-	height: 24px;
-	transform: translate(-4px, -4px);
-	z-index: -1;
-	background: var(--bg-3);
-	border-radius: 50%;
-}
+
 /* custom dm button background instead of icon */
 /* .childWrapper_a6ce15:has(> svg:not(.favoriteIcon__901fa)) {
 	background: url('https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png');
