@@ -8,7 +8,6 @@
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
 @import url('https://raw.githubusercontent.com/Virtual065/MidnightTweaked/main/midnightinfo/MidnightInfo.css');
 @import url('https://raw.githubusercontent.com/DiscordStyles/RadialStatus/deploy/RadialStatus.theme.css');
-@import url("https://minidiscordthemes.github.io/SettingsIcons/main.min.css");
 
 /* customize things here */
 :root {
@@ -87,7 +86,7 @@
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
 	--moon-icon: block; /* moon icon */
-	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
+	--moon-icon-url: url('https://www.svgrepo.com/show/473585/discord.svg'); /* custom icon url */
 	--moon-icon-size: auto;
 
 	/* filter uncolorable elements to fit theme */
