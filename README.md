@@ -20,6 +20,6 @@ Download [Midnight-Tweaked.css] and place inside the better discord themes folde
 
 
 # Preview
-<img width=800 src="https://i.ibb.co/80MrFgk/im2age.png">
+<img width=800 src="https://i.postimg.cc/Jr6dbpQQ/imag2e.png">
 
-<img width=800 src="https://i.ibb.co/Sy5m57t/imag2e.png">
+<img width=800 src="https://i.postimg.cc/qvx1gwRy/image.png">
