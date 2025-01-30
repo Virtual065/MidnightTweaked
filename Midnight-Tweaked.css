@@ -11,6 +11,30 @@
 @import url("https://minidiscordthemes.github.io/SettingsIcons/main.min.css");
 
 /* customize things here */
+
+.container__37e49 /* user panel button strikethroughs */,
+.numberBadge_df8943  /* unread number badge */,
+.numberBadge__2b1f5  /* unread number badge */,
+.toolbar__9293f /* toolbar button strikethroughs */ {
+	--status-danger: var(--accent-2);
+}
+.expandedFolderIconWrapper__48112 > svg[style="color: rgb(88, 101, 242);"] /* default color folder icons */ {
+	color: var(--accent-3) !important;
+}
+.mention__3b95d /* NEW unread pill */,
+.botTagOP__82f07 /* OP tag */ {
+	background: var(--accent-3);
+}
+.mention__3b95d:active /* NEW unread pill when clicked */ {
+	background: var(--accent-4);
+}
+.numberBadge__2b1f5 /* dms number badge */,
+.newMessagesBar__0f481 .barButtonBase__0f481 /* unread bar */,
+.botTagRegular__82f07 /* bot tag */,
+.endCap__908e2 /* unread divider */,
+.thin_d125d2.scrollerBase_d125d2,
+.embed__623de/* embeds */,
+
 :root {
 	/* font, change to 'gg sans' for default discord font*/
 	--font: 'figtree';
